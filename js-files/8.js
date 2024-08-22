@@ -20,3 +20,4 @@ console.log(number_1 != number_2);               // not equal        (not data t
 console.log(number_1 !== number_2);               // not equal        (data type check)
 
 
+
