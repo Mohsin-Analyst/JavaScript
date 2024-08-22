@@ -27,3 +27,4 @@ console.log(myItems);
 // splice an element from an array          (specific index element removal)
 myItems.splice(0,2);                       //start index , end index
 console.log(myItems);
+
