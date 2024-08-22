@@ -15,4 +15,3 @@ console.log(myAddress[2])
 console.log(myAddress[myAddress.length-1])
 console.log(myAddress[myAddress.length-2])
 console.log(myAddress[myAddress.length-3])
-
