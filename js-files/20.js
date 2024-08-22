@@ -43,10 +43,3 @@ console.log(myObj.products[2])
 
 
 
-
-
-
-
-
-
-
