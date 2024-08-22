@@ -30,3 +30,4 @@ console.log(drink)
 // let ager = 10;
 // let drinker = ager >=10 ? "Lassi":"Milk";
 // console.log(drinker)
+
