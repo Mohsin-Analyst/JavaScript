@@ -92,3 +92,19 @@
 
 // const check = isOdd(12);
 // console.log(check)
+
+
+// 2. example
+
+// array and find the index of target 
+
+const findIndex = function(array,target){
+    for (let i = 0; i < array.length;i++){
+        if (array[i] === target){
+            return i;
+        }
+    }console.log(-1)
+}
+const array = [1,2,3,56,32,90];
+const indexOfTarget = findIndex(array, 90)
+console.log(indexOfTarget)
