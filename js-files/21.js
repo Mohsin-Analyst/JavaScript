@@ -48,3 +48,4 @@ const new_obj = {
 console.log(new_obj["key 1"])
 console.log(new_obj["key 2"])
 console.log(new_obj["key 3"])
+
