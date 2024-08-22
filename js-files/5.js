@@ -16,5 +16,3 @@ console.log(newString);
 console.log(`My name is ${userName}, i am ${userAge} years old & i am a ${userEducation} student.`)         
 // great approach also less time & LOC consumes
 
-
-
