@@ -44,3 +44,5 @@ function myFnc(){
 // calling the fnc
 myFnc()
 let obj1 = myFnc()
+
+
