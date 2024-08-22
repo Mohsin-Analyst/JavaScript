@@ -29,4 +29,3 @@ console.log(typeof(symbol));
 console.log(typeof(bololeanTrue));
 console.log(typeof(bololeanFalse));
 
-
