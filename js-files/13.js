@@ -79,3 +79,4 @@ switch (val){
     default:
         console.log("Error")
 }
+
