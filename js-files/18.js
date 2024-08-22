@@ -24,3 +24,4 @@ console.log("Cloned Array (Spread Operator) with Modification:", newSampleArray4
 // i also use spread operator like this
 let spreadOp = [..."mango"];
 console.log(spreadOp)
+
