@@ -27,3 +27,4 @@ let [emp1,emp2, ...islamabadBranch] = employees;
 console.log(emp1);
 console.log(emp2);
 console.log(islamabadBranch);
+
