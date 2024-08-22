@@ -15,10 +15,11 @@ console.log("-----------------------------")
 
 for (let i = 0; i < 10; i++) {
     if (i === 3) {
-       console.log("skipped");
-       continue;                                       // Skip the iteration when i is 3
+        console.log("skipped");
+        continue;                                       // Skip the iteration when i is 3
     }
     console.log(i);                                     // This will print 0, 1, 2, 3, 4, 6, 7, 8, 9
 }
+
 
 
