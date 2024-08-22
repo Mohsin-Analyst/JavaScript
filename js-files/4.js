@@ -69,6 +69,3 @@ console.log(myString.endsWith("."))             // case sensitive
 myString = "My name is MOHSIN mohsin Mohsin mOHSIN." 
 console.log(myString.match("MOHSIN"))           // it returns the starting index of the value searched
 
-
-
-
