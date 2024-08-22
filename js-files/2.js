@@ -13,6 +13,3 @@ console.log(myEducation)
 // 1. var was introduced in es5 while let & const in es6.
 // 2. var is a functiona scope variable while let & const are the braces scoped in nature.
 // 3. var adds itself to windows object while let & const don't.
-
-
-
