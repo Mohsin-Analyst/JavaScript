@@ -23,3 +23,20 @@ style2("Mohsin",22)
 // style 3
 const style3 = (val1) => val1 + 200;
 console.log(style3(34))
+
+
+
+// example 
+
+// find the target number inside an array
+
+const findTarget = (array,target) => {
+    for (let i = 0 ; i < array.length; i++){
+        if (array[i] === target){
+            return i;
+        }
+    }return "target not find";
+}
+
+
+console.log(findTarget([12,43,64,90,87], 97))
