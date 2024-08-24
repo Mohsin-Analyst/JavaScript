@@ -548,4 +548,20 @@ const array = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
 
 // ----------------------------------------------------------------------------
 
+// spread operators in objects
 
+const object = {
+    userName: "mohsin",
+    userAge: 22,
+    userGender: 'male'
+}
+
+console.log(object.userName);
+console.log(object.userAge);
+console.log(object.userGender);
+
+// spread operator
+const newObject = {...object};
+console.log(newObject.userName);
+console.log(newObject.userAge);
+console.log(newObject.userGender);
