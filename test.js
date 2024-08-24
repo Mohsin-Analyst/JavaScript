@@ -550,18 +550,169 @@ const array = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
 
 // spread operators in objects
 
-const object = {
-    userName: "mohsin",
-    userAge: 22,
-    userGender: 'male'
-}
+// const object = {
+//     userName: "mohsin",
+//     userAge: 22,
+//     userGender: 'male'
+// }
 
-console.log(object.userName);
-console.log(object.userAge);
-console.log(object.userGender);
+// console.log(object.userName);
+// console.log(object.userAge);
+// console.log(object.userGender);
 
-// spread operator
-const newObject = {...object};
-console.log(newObject.userName);
-console.log(newObject.userAge);
-console.log(newObject.userGender);
+// // spread operator
+// const newObject = {...object};
+// console.log(newObject.userName);
+// console.log(newObject.userAge);
+// console.log(newObject.userGender);
+
+// ----------------------------------------------------------------------------
+
+// object destructuring
+
+// const myObject = {
+//     userName: "mohsin",
+//     userAge: 22,
+//     userGender: 'male'
+// };
+
+// // default variables
+// const { userName, userAge, userGender } = myObject;
+// console.log(userName);
+// console.log(userAge);
+// console.log(userGender);
+
+// // update default variables
+// const { userName: key1, userAge: key2, userGender: key3 } = myObject;
+// console.log(key1);
+// console.log(key2);
+// console.log(key3);
+
+// ----------------------------------------------------------------------------
+
+// object inside an array 
+
+// const objInArray = [
+//     {
+//         userName: "ali",
+//         userGender: "male"
+//     },
+//     {
+//         userName: "jameel",
+//         userGender: "male"
+//     },
+//     {
+//         userName: "alia",
+//         userGender: "female"
+//     }
+// ];
+
+// console.log(objInArray[0]);
+// console.log(objInArray[1]);
+// console.log(objInArray[2]);
+
+
+// ----------------------------------------------------------------------------
+
+// nested destructuring
+
+// const objInArray = [
+//     {
+//         userName: "ali",
+//         userGender: "male"
+//     },
+//     {
+//         userName: "jameel",
+//         userGender: "male"
+//     },
+//     {
+//         userName: "alia",
+//         userGender: "female"
+//     }
+// ];
+
+// const [user1, user2, user3] = objInArray;
+
+// console.log(user1);
+// console.log(user2);
+// console.log(user3);
+
+// store them in an object bcz of data nature
+
+// const {userName: key1, userGender: key2} = user1;
+// const {userName: key3, userGender: key4} = user2;
+// const {userName: key5, userGender: key6} = user3;
+
+// console.log(key1, key2);
+// console.log(key3, key4);
+// console.log(key5, key6);
+
+// ----------------------------------------------------------------------------
+
+// Function decalration 
+
+// function addTwoNums(){
+//     return 20 + 20;
+// };
+// console.log(addTwoNums())
+
+// params & args 
+
+// function addTwoNums(num1, num2){
+//     return num1 + num2;
+// };
+// console.log(addTwoNums(120,9712))
+
+// ----------------------------------------------------------------------------
+
+// functions expressions
+
+// const myFnc = function(){
+//     return("Hello world!");
+// };
+
+// console.log(myFnc())
+
+// ----------------------------------------------------------------------------
+
+// Arrow fnc's
+
+// const subThreeNums = (num1, num2, num3) => {
+//         return ((num1 - num2) - num3);
+// }
+
+// console.log(subThreeNums(200,100,80));
+
+// ----------------------------------------------------------------------------
+
+// examples on fnc's
+
+// array and find the index of target 
+
+// const check = (theArray, target) => {
+//     for (let i = 0; i <= theArray.length; i++){
+//         if (theArray[i] === target){
+//             return i;
+//         }
+//     }console.log(-1)
+// };
+
+// const theArray = [12,32,54,90,0,76];
+// const target = 0;
+
+// console.log(check(theArray,target));
+
+
+
+// is Even | Odd
+
+// const isEven = num => {
+//     if (num % 2 === 0) {
+//         return 'Even';
+//     }else {
+//         return 'Odd';
+//     }
+// }
+
+// console.log(isEven(13))
+// console.log(isEven(12))
