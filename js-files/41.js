@@ -34,3 +34,21 @@ console.log(myFruit[0]);
 console.log(myFruit[1]);
 console.log(myFruit[2]);
 console.log(myFruit[3]);
+
+
+
+// example in Object 
+
+const sampleObj = [
+    {firstName : 'mohsin', age:22, },
+    {firstName : 'ali', age:22, },
+    {firstName : 'sikander', age:22, }
+]
+
+
+function onlyName(data){
+    return data.firstName;
+}
+
+let names = sampleObj.map(onlyName);
+console.log(names)
