@@ -1,4 +1,5 @@
 // map method
+// it takes a callback fnc to perform the operation
 
 const temp = [2,3,4,5,8];
 
