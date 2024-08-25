@@ -1,4 +1,5 @@
 // filter method
+// it takes a callback fnc to perform the operation
 
 const numbers = [83,28,39,43,56,78];
 
