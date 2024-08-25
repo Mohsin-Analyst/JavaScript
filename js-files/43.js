@@ -30,3 +30,4 @@ const div = function (accumulator, currentvalue){
 
 var check = numbers.reduce(div)
 console.log(check)
+
