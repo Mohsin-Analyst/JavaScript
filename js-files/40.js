@@ -65,3 +65,38 @@ users.forEach(function (value, index) {
 // 4th way
 
 users.forEach(showIndex);
+
+
+
+// example 2
+
+const students = ['laiba','daneen', 'alia','karishma', 'nadia'];
+
+
+// 1st way 
+function showTheIndex(data, index){
+    console.log(`Student name : ${data} & its index : ${index}`);
+}
+
+showIndex(students[0],0);
+showIndex(students[1],1);
+showIndex(students[2],2);
+showIndex(students[3],3);
+showIndex(students[4],4);
+
+// 2nd way 
+for (let i=0;i<students.length;i++){
+    console.log(`Student name : ${students[i]} & its index : ${i}`)
+}
+
+
+// 3rd way
+
+students.forEach(function(student, index){
+    console.log(`Student name : ${student} & its index : ${index}`)
+})
+
+// 4th way
+
+students.forEach(showTheIndex)
+
