@@ -19,3 +19,5 @@ function func_3(callback_1, callback_2){
 
 
 func_3(func_1(),func_2())
+
+// when a fnc accepts | returns | both at same time --> higher order fnc
