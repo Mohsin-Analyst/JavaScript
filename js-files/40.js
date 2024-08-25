@@ -1,5 +1,8 @@
 // Array methods in JS 
 
+// it takes a callback fnc to perform the operation
+
+
 // ForEach method
 
 const myArray = [10, 20, 30, 40];
