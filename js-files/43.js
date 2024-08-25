@@ -1,5 +1,5 @@
 // reduce method
-
+// it takes a callback fnc to perform the operation
 const numbers = [120,90,78,66,34];
 
 
