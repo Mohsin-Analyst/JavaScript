@@ -18,3 +18,19 @@ console.log(see)
 
 // .map always returns an array in nature 
 // it is conventional to return the data instead of consol.log while using the map method.
+
+
+
+const fruits = ['apple','lichi', 'pineapple','banana'];
+
+
+function fruitNameIndex(name, index){
+    return (`Index : ${index} & Fruit : ${name}`)
+}
+
+let myFruit = fruits.map(fruitNameIndex);
+console.log(myFruit);
+console.log(myFruit[0]);
+console.log(myFruit[1]);
+console.log(myFruit[2]);
+console.log(myFruit[3]);
