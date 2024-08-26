@@ -71,5 +71,5 @@ const userCart = [
 let check2 = userCart.reduce((totalAmmount, currentProduct)=>{
     return totalAmmount + currentProduct.productPrice;
         
-},0);
+},0);                                       // ,0 shows that the initial value is 0
 console.log(check2)
